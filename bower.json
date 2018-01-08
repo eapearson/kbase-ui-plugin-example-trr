@@ -1,6 +1,6 @@
 {
     "name": "kbase-ui-plugin-example-trr",
-    "description": "Bulk Data Upload UI integrated into kbase-ui as a plugin",
+    "description": "Example Typescript-React-Redux integrated into kbase-ui as a plugin",
     "author": [
         "kbase"
     ],
