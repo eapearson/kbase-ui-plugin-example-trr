@@ -1,0 +1,32 @@
+## Data API Demo Plugin
+---
+package:
+    name: example-trr
+    description: Example plugin for running a Typescript-React-Redux app within an iFrame plugin
+    author: Erik Pearson 
+    date: December 6, 2017
+source:
+    modules: []
+    styles: 
+        -
+            file: styles.css
+install:
+    widgets:
+        -
+            module: panel
+            id: kb_example-trr_panel
+            type: factory              
+    routes:
+        -
+            path:
+                -
+                    example-trr
+            widget: kb_example-trr_panel
+            authorization: true
+    menu:
+        -
+            name: example-trr
+            definition:
+                path: example-trr
+                label: Example TRR
+                icon: flask
