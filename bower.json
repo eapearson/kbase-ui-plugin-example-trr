@@ -1,5 +1,5 @@
 {
-    "name": "kbase-ui-plugin-example-trr",
+    "name": "example-trr",
     "description": "Example Typescript-React-Redux integrated into kbase-ui as a plugin",
     "author": [
         "kbase"
